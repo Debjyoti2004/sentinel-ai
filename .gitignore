@@ -1,0 +1,27 @@
+# API Keys - never push
+.env
+*.env
+
+# Demo script - private
+scripts/demo.sh
+docs/demo.md
+
+# Foundry downloaded files
+foundry.tar.gz
+foundry_darwin_arm64/
+foundry_linux_amd64/
+
+# Foundry generated (except lock file)
+pours/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Mac
+.DS_Store
+.env
